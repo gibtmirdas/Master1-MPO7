@@ -1,0 +1,713 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<meta name="generator" content="AsciiDoc 7.0.0"/>
+<style type="text/css">
+/* Debug borders */
+p, li, dt, dd, div, pre, h1, h2, h3, h4, h5, h6 {
+/*
+  border: 1px solid red;
+*/
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a { color: blue; }
+a:visited { color: fuchsia; }
+
+span.emphasis {
+  font-style: italic;
+}
+
+span.strong {
+  font-weight: bold;
+}
+
+span.monospaced {
+  font-family: monospace;
+  color: navy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  font-family: sans-serif;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  border-bottom: 2px solid silver;
+  padding-top: 0.5em;
+}
+
+div.sectionbody {
+  font-family: serif;
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+span#author {
+  color: #527bbd;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+span#email {
+}
+span#revision {
+  font-family: sans-serif;
+}
+
+div#footer {
+  font-family: sans-serif;
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+div#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+div#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+div#preamble,
+div.tableblock, div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-right: 10%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid silver;
+  background: #f4f4f4;
+  padding: 0.5em;
+}
+
+div.quoteblock > div.content {
+  padding-left: 2.0em;
+}
+div.quoteblock .attribution {
+  text-align: right;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 2px solid silver;
+}
+
+div.exampleblock > div.content {
+  border-left: 2px solid silver;
+  padding: 0.5em;
+}
+
+div.verseblock div.content {
+  white-space: pre;
+}
+
+div.imageblock div.content { padding-left: 0; }
+div.imageblock img { border: 1px solid silver; }
+span.image img { border-style: none; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: italic;
+}
+dd > *:first-child {
+  margin-top: 0;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.olist2 {
+  list-style-type: lower-alpha;
+}
+
+div.tableblock > table {
+  border-color: #527bbd;
+  border-width: 3px;
+}
+thead {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+tfoot {
+  font-weight: bold;
+}
+
+div.hlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+td.hlist1 {
+  vertical-align: top;
+  font-style: italic;
+  padding-right: 0.8em;
+}
+td.hlist2 {
+  vertical-align: top;
+}
+
+@media print {
+  div#footer-badges { display: none; }
+}
+/* Workarounds for IE6's broken and incomplete CSS2. */
+
+div.sidebar-content {
+  background: #ffffee;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+div.sidebar-title, div.image-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 0.0em;
+  margin-bottom: 0.5em;
+}
+
+div.listingblock div.content {
+  border: 1px solid silver;
+  background: #f4f4f4;
+  padding: 0.5em;
+}
+
+div.quoteblock-content {
+  padding-left: 2.0em;
+}
+
+div.exampleblock-content {
+  border-left: 2px solid silver;
+  padding-left: 0.5em;
+}
+</style>
+<title>n-genes Tutorials &#8212; the Max One Problem</title>
+</head>
+<body>
+<div id="header">
+<h1>n-genes Tutorials &#8212; the Max One Problem</h1>
+<span id="author">Jean-Luc FALCONE</span><br />
+<span id="email"><span class="monospaced">&lt;<a href="mailto:jean-luc.falcone@cui.unige.ch">jean-luc.falcone@cui.unige.ch</a>&gt;</span></span><br />
+<span id="revision">version 0.9,</span>
+20 June 2005
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<h2> Table of Content </h2>
+<ul>
+<li><a href="#1">1. Introduction</a>
+</li>
+<li><a href="#2">2. The XML File</a>
+<ul>
+<li><a href="#21">2.1. The Preamble</a>
+</li>
+<li><a href="#22">2.2. The Population</a>
+</li>
+<li><a href="#23">2.3. The Context</a>
+</li>
+<li><a href="#24">2.4. The Individuals and their Fitness</a>
+</li>
+<li><a href="#25">2.5. The Operators</a>
+</li>
+<li><a href="#26">2.6. The Selector</a>
+</li>
+<li><a href="#27">2.7. Some Numbers</a>
+</li>
+<li><a href="#28">2.8. Finally</a>
+</li>
+
+</ul>
+
+</li>
+<li><a href="#3">3. The Fitness Class</a>
+</li>
+<li><a href="#4">4. Compiling and Running</a>
+</li>
+<li><a href="#5">5. Free Optimisations</a>
+</li>
+<li><a href="#6">6. References</a></li>
+</ul>
+
+</div>
+</div>
+<h2 ID='1'>1. Introduction</h2>
+<div class="sectionbody">
+<p>This tutorial explain how to implement the classical <span class="emphasis">Max One</span> problem
+with n-genes. The goal of this trivial problem is to find a vector in
+<span class="monospaced">{0,1}</span><sup><span class="monospaced">N</span></sup>, whose all components are equals to 1.</p>
+<p>[NOTE] We assume that youhave some basic knowledges of the Genetic
+Algorithms, the <span class="monospaced">XML</span> languague, the Java programming language and
+some object-oriented techniques. If you lack those notions, you can
+look at the <a href="#sec-ref">references section</a>.</p>
+</div>
+<h2 ID='2'>2. The XML File</h2>
+<div class="sectionbody">
+<p><span class="emphasis">n-genes</span> uses configurations files written in <span class="monospaced">XML</span> to describe the
+simulations. So the first thing to do, is to create en empty file
+named <span class="monospaced">maxones.xml</span> whith your favorite text editor.</p>
+<h3 ID='21'>2.1. The Preamble</h3>
+<p>First of all, we'll need to begin with a preamble indicating the
+<span class="monospaced">xml</span>, version, the text encoding and the grammar. So add the next
+lines to the <span class="monospaced">maxones.xml</span> file:</p>
+<div class="listingblock">
+<div class="title">Example: <span class="monospaced">maxones.xml</span> preamble</div>
+<div class="content">
+<pre><span class="monospaced">&lt;?xml version="1.0" encoding="ISO-8859-1" ?&gt;
+&lt;!DOCTYPE program SYSTEM "...n-genes.config/genetic.dtd"&gt;    <b>(1)</b>
+
+&lt;program&gt;
+
+&lt;/program&gt;</span></pre>
+</div></div>
+<ol>
+<li>
+<p>
+Modifiy <span class="monospaced">"&#8230;n-genes.config/genetic.dtd"</span> to match the
+installation path.
+</p>
+</li>
+</ol>
+<p>The tags <span class="monospaced">&lt;program&gt;</span> will contain the description of the simulation.</p>
+<h3 ID='22'>2.2. The Population</h3>
+<p>Now, we need to choose a population (there are different population in
+the package <span class="monospaced">ch.unige.n-genes.populations</span>). By default we will the
+<span class="monospaced">BasicPopulation</span> class. We will choose a population size of 100
+individuals. Add the following lines between the <span class="monospaced">&lt;program&gt;</span> tags:</p>
+<div class="listingblock">
+<div class="title">Example: the population</div>
+<div class="content">
+<pre><span class="monospaced">   &lt;genetic popSize="100"&gt;
+      &lt;population/&gt;
+
+   &lt;/genetic&gt;</span></pre>
+</div></div>
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<img src="./images/tip.png" alt="Tip" />
+</td>
+<td class="content">You can change the population size during the evolution using population
+modifiers, with the <span class="monospaced">GeneticListener</span> class.</td>
+</tr></table>
+</div>
+<h3 ID='23'><a id="sec-ctx"></a>2.3. The Context</h3>
+<p>Since the Genetic Algorithms evolution is probabilistic, we need a
+<span class="emphasis">random number generator</span>. You can choose between differents <span class="emphasis">RNG</span> in
+the package <span class="monospaced">ch.unige.n-genes.tools.rng</span>. We want a deterministic
+system (with a same seed, the evolution must be the same), so we want
+to provide the same <span class="emphasis">RNG</span> to each component. We use then an object
+named <span class="monospaced">Context</span> to reference it.</p>
+<p>So we add the following excerpt between the <span class="monospaced">&lt;genetic &#8230;&gt;</span> tags.</p>
+<div class="listingblock">
+<div class="title">Example: the context and RNG</div>
+<div class="content">
+<pre><span class="monospaced">   &lt;context id="context"&gt;                                    <b>(1)</b>
+      &lt;random CLASS="ch.unige.n-genes.tools.rng.MersenneTwister" seed="0"/&gt;   <b>(2)</b><b>(3)</b>
+   &lt;/context&gt;</span></pre>
+</div></div>
+<ol>
+<li>
+<p>
+Since we'll need the context later (to provide it to some other
+components), we give it an <span class="emphasis">id</span>. Our limited imagination leads us into
+naming it <span class="monospaced">"context"</span>.
+</p>
+</li>
+<li>
+<p>
+Here is how we refer to a particular class. Do not forget to
+provide the full name (with the package).
+</p>
+</li>
+<li>
+<p>
+You can choose to ommit the seed. <span class="monospaced">n-genes</span> will then takes the
+system time in milliseconds as seed and the evolution will become
+undeterministic.
+</p>
+</li>
+</ol>
+<h3 ID='24'>2.4. The Individuals and their Fitness</h3>
+<p>Now we will describe the individuals of our population. In <span class="monospaced">n-genes</span>
+we do this by first describing the <span class="emphasis">layout</span> of our individuals (here
+fixed size vector individuals), the nature of the genes and the
+associated fitness.</p>
+<p>In fact we do not describe the genes itselves, but we describe a class
+named <span class="emphasis">GeneFactory</span>, which is responsible for gene creation and basic
+mutations. You have to create a <span class="emphasis">GeneFactory</span> for each type of genes
+you are planning to use. In our case, we will use the
+<span class="monospaced">BooleanGeneFactory</span>.</p>
+<p>You can find several types of individuals and gene factories in the
+package <span class="monospaced">ch.unige.n-genes.species</span>.</p>
+<p>You can add the following lines, below the <span class="emphasis">context</span> declaration:</p>
+<div class="listingblock">
+<div class="title">Example: the individuals, genes and fitness</div>
+<div class="content">
+<pre><span class="monospaced">   &lt;individual CLASS="ch.unige.n-genes.species.VectorIndividual" indSize="1000"&gt;  <b>(1)</b>
+
+      &lt;geneFactory CLASS="ch.unige.n-genes.species.booleans.BooleanGeneFactory"&gt;
+         &lt;object reference="context"/&gt;                                          <b>(2)</b>
+      &lt;/geneFactory&gt;
+
+     &lt;fitness CLASS="tutorial.MaxOnesFitness"/&gt;                                 <b>(3)</b>
+
+  &lt;/individual&gt;</span></pre>
+</div></div>
+<ol>
+<li>
+<p>
+The parameter <span class="monospaced">indSize="1000"</span> refers to the individual size (as
+you probably guessed). Here we choose a size of 1000 genes.
+</p>
+</li>
+<li>
+<p>
+Since we need to pass te context (wich contains the RNG) to the
+Gene Factory we will use the reference we defined <a href="#sec-ctx">above</a>.
+</p>
+</li>
+<li>
+<p>
+This fitness does not exists now, we will write it
+<a href="#sec-fit">below</a>.
+</p>
+</li>
+</ol>
+<h3 ID='25'>2.5. The Operators</h3>
+<p>We use the same scheme to define the operators. Here we want to cross
+first the individual with a basic one point crossover (with random
+crossing point) and then apply a random single point mutation.</p>
+<p>We have already implemented severals operators which you can find in
+the <span class="monospaced">ch.unige.n-genes.ops</span> package.</p>
+<p>This is realized with the next excerpt, which takes place below the
+<span class="emphasis">individual</span> description.</p>
+<div class="listingblock">
+<div class="title">Example: the operators</div>
+<div class="content">
+<pre><span class="monospaced">   &lt;pipe&gt;                                                                       <b>(1)</b>
+
+      &lt;mutation CLASS="ch.unige.n-genes.ops.mutation.BasicPointMutation" /&gt;
+
+      &lt;crossover CLASS="ch.unige.n-genes.ops.crossover.BasicOnePointCrossOver"&gt;
+         &lt;parameter NAME="politic" VALUE="RANDOM"/&gt;                             <b>(2)</b>
+      &lt;/crossover&gt;
+
+   &lt;/pipe&gt;</span></pre>
+</div></div>
+<ol>
+<li>
+<p>
+You can place as many operator has you want in a <span class="emphasis">pipe</span>
+declaration. Each new Individual generated will be processed by all
+the operators.
+</p>
+</li>
+<li>
+<p>
+You can pass parameters to class using the <span class="monospaced">&lt;parameter &#8230;&gt;</span> tags.
+</p>
+</li>
+</ol>
+<h3 ID='26'>2.6. The Selector</h3>
+<p>Your system will not be complete whithout a selector. We will choose
+the excellent <span class="emphasis">k-tournament</span>, but we have implemented several others
+(naturally they lay in the package <span class="monospaced">ch.unige.n-genes.ops.select</span>).</p>
+<p>Here is the <span class="emphasis">selector</span> declaration:</p>
+<div class="listingblock">
+<div class="title">Example: the selector</div>
+<div class="content">
+<pre><span class="monospaced">   &lt;selection CLASS="ch.unige.n-genes.ops.select.KTournamentSelector"&gt;
+      &lt;parameter NAME="size" VALUE="5"/&gt;                 <b>(1)</b>
+   &lt;/selection&gt;</span></pre>
+</div></div>
+<ol>
+<li>
+<p>
+This parameter represents, of course, the size of the tournament.
+</p>
+</li>
+</ol>
+<h3 ID='27'>2.7. Some Numbers</h3>
+<p>The last thing we want to add to our system is some useful
+measurements. There are two things to consider, first we need to tell
+the system when it must measure (using the <span class="monospaced">FrequencyCondition</span> class)
+and then what to print (using the <span class="monospaced">logger</span> declaration).</p>
+<p>Here we would like to print each 2 generations, the best fitness, the
+average, and the worst. We add below the <span class="monospaced">selector</span> declarations some
+lines:</p>
+<div class="listingblock">
+<div class="title">Example: the logs</div>
+<div class="content">
+<pre><span class="monospaced">   &lt;log&gt;
+
+      &lt;frequencyCondition frequency="2"/&gt;
+      &lt;endCondition/&gt;
+
+      &lt;logger&gt;
+         &lt;statistic CLASS="ch.unige.n-genes.statistics.BestStatistic"/&gt;
+         &lt;statistic CLASS="ch.unige.n-genes.statistics.MeanStatistic"/&gt;
+         &lt;statistic CLASS="ch.unige.n-genes.statistics.WorstStatistic"/&gt;
+         &lt;writer CLASS="ch.unige.n-genes.tools.io.writer.DefaultWriter" console="true"&gt;        <b>(1)</b>
+            &lt;parameter NAME="separator" VALUE="\t"/&gt;                          <b>(2)</b>
+         &lt;/writer&gt;
+       &lt;/logger&gt;
+    &lt;/log&gt;</span></pre>
+</div></div>
+<ol>
+<li>
+<p>
+Here we tell the logger to send the results to the Console.
+</p>
+</li>
+<li>
+<p>
+We need to specify the separator between each value.
+</p>
+</li>
+</ol>
+<h3 ID='28'>2.8. Finally</h3>
+<p>If you followed each step of this tutorial, you will end whith this
+<a href="files/maxones.xml">file</a>.</p>
+</div>
+<h2 ID='3'><a id="sec-fit"></a>3. The Fitness Class</h2>
+<div class="sectionbody">
+<p>In the <span class="monospaced">xml</span> config file we have added the line:</p>
+<div class="listingblock">
+<div class="content">
+<pre><span class="monospaced">&lt;fitness CLASS="tutorial.MaxOnesFitness"/&gt;</span></pre>
+</div></div>
+<p>Now we will see how to implements this fitness. With <span class="monospaced">n-genes</span>
+everytime you want to implements something you first have to find the
+right <span class="emphasis">Interface</span> to implement.  For a fitness, its easy you have to
+implement the interface <span class="emphasis">ch.unige.n-genes.fitness.Fitness&lt;T&gt;</span>. The
+<span class="monospaced">&lt;T&gt;</span> corresponds to the type of the <span class="emphasis">genes</span> and here we use
+<span class="monospaced">Boolean</span>. So we begin by writing:</p>
+<div class="listingblock">
+<div class="title">Example: MaxOnesFitness class</div>
+<div class="content">
+<pre><span class="monospaced"><strong>package</strong> tutorial;
+
+<strong>import</strong> ch.unige.n-genes.fitness.Fitness;
+<strong>import</strong> ch.unige.n-genes.species.Evaluable;
+
+<strong>public</strong> <strong>class</strong> MaxOnesFitness <strong>implements</strong> Fitness&lt;Boolean&gt; {
+
+
+}</span></pre>
+</div></div>
+<p>Then we implement the only method required by the interface. The
+convention in <span class="monospaced">n-genes</span> is that the best fitness corresponds to 0, and
+the smallest fitness the best (quite common convention). Here is the
+code excerpt:</p>
+<div class="listingblock">
+<div class="title">Example: MaxOnesFitness <span class="monospaced">compute</span> method</div>
+<div class="content">
+<pre><span class="monospaced"><strong>public</strong> <strong>double</strong> compute( Evaluable&lt;Boolean&gt; individual ) {
+   <strong>double</strong> falsePositions=0;
+   <strong>for</strong>( Boolean b: individual )  {
+      <strong>if</strong> ( ! b ) {
+         falsePositions++;
+      }
+   }
+   <strong>return</strong> falsePositions / individual.size();
+}</span></pre>
+</div></div>
+<p>In this method, we iterate across each gene of the individual, and if
+the value is <span class="emphasis">false</span> we increment a counter. Thus the fitness reaches
+zero when all the genes are equals to <span class="emphasis">true</span>.</p>
+<p>You can find the source code for the class
+<a href="files/tutorial/MaxOnesFitness.java">here</a>.</p>
+<p>This implemementation use lots of java 5 improvements (generics,
+autoboxing, and for-each). Since <span class="monospaced">n-genes</span> uses this new syntax almost
+evrywhere, you will need to learn it. You will find some infos in the
+<a href="#sec-ref">reference</a> section.  To help you, here is the same method
+written in older java:</p>
+<div class="listingblock">
+<div class="title">Example: MaxOnesFitness <span class="monospaced">compute</span> method (oldschool version)</div>
+<div class="content">
+<pre><span class="monospaced"><strong>public</strong> <strong>double</strong> compute( Evaluable individual ) {
+   <strong>double</strong> falsePositions=0;
+   <strong>for</strong> (Iterator it = individual.iterator(); it.hasNext();) {
+      Boolean b = (Boolean) it.next();
+      <strong>if</strong> ( b.equals(Boolean.FALSE) ) {
+         falsePositions++;
+      }
+   }
+   <strong>return</strong> falsePositions / individual.size();
+}</span></pre>
+</div></div>
+</div>
+<h2 ID='4'>4. Compiling and Running</h2>
+<div class="sectionbody">
+<p>Now you can compile your class <span class="monospaced">MaxOnesFitness</span> and run your code. If
+everything is OK, you should see:</p>
+<div class="listingblock">
+<div class="content">
+<pre><span class="monospaced">
+java -cp .:../n-genes.jar ch.unige.ng.bin.NGenes --file maxones.xml
+Nov 24, 2005 1:31:01 PM ch.unige.ng.bin.NGenes main
+INFO: Running.ng.--file maxones.xml
+Run Genetic algorithm
+.............................
+generation      best    mean    worst
+2       0.439   0.4651800000000004      0.49
+4       0.419   0.4407000000000001      0.463
+6       0.407   0.42114999999999986     0.436
+8       0.402   0.40785 0.416
+10      0.397   0.4021  0.408
+12      0.389   0.3956599999999999      0.403
+[...]
+
+</span></pre>
+</div></div>
+</div>
+<h2 ID='5'>5. Free Optimisations</h2>
+<div class="sectionbody">
+<p>In this example, n-genes provides some optimisations for free:</p>
+<ol>
+<li>
+<p>
+The individuals are not garbage-collected, but recycled using an
+object-pool pattern;
+</p>
+</li>
+<li>
+<p>
+The gene factory holds references to the only two possible genes, so
+they are not duplicated, and not garbage-collected;
+</p>
+</li>
+<li>
+<p>
+The fitness value is cached in the individual, so if the individual
+occurs no mutations, the fitness is not computed again;
+</p>
+</li>
+<li>
+<p>
+The population holds a statistic cache object which allow to compute
+different measurements in only one pass.
+</p>
+</li>
+</ol>
+</div>
+<h2 ID='6'><a id="sec-ref"></a>6. References</h2>
+<div class="sectionbody">
+<p>Here are some introductory links:</p>
+<dl>
+<dt>
+<span class="strong">Java Language</span>
+</dt>
+<dd>
+<p>
+<a href="http://java.sun.com/docs/books/tutorial/">http://java.sun.com/docs/books/tutorial/</a>;
+</p>
+</dd>
+<dt>
+<span class="strong">Java 5 New Features</span>
+</dt>
+<dd>
+<p>
+<a href="http://java.sun.com/developer/technicalArticles/releases/j2se15/">http://java.sun.com/developer/technicalArticles/releases/j2se15/</a>;
+</p>
+</dd>
+<dt>
+<span class="strong">XML Introduction</span>
+</dt>
+<dd>
+<p>
+<a href="http://www.w3schools.com/xml/default.asp">http://www.w3schools.com/xml/default.asp</a>;
+</p>
+</dd>
+<dt>
+<span class="strong">Genetic Algorithms</span>
+</dt>
+<dd>
+<p>
+<a href="http://en.wikipedia.org/wiki/Genetic_algorithms">http://en.wikipedia.org/wiki/Genetic_algorithms</a>.
+</p>
+</dd>
+</dl>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 0.9<br />
+Last updated 28-Nov-2005 14:21:26 CEST
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE program SYSTEM "./genetic.dtd">
+
+<program>
+    <constant NAME="maxSize" VALUE="100"/>
+    <constant NAME="size" VALUE="20"/>
+    <constant NAME="numIndividuals" VALUE="1024"/>
+    <constant NAME="mode" VALUE="normal"/>
+    <genetic popSize="#numIndividuals#" time="true">
+
+        <population/>
+
+
+        <context id="context">
+            <random CLASS="ch.unige.ng.tools.rng.MersenneTwister" seed="#seed#"/>
+
+        </context>
+
+        <individual CLASS="ch.unige.ng.species.VariableSizeIndividual" indSize="#maxSize#">
+
+            <initializer CLASS="ch.unige.ng.species.initializers.BasicInitializer">
+                <parameter NAME="size" VALUE="#size#"/>
+            </initializer>
+
+            <!-- Declaring fitness -->
+            <fitness CLASS="ch.unige.ng.problems.santafe.fitness.SantaFeFitness" id="fitness">
+                <object CLASS="ch.unige.ng.problems.santafe.evaluations.ControlEvaluator" id="evaluator">
+                    <parameter NAME="iterationMax" VALUE="400"/>
+                </object>
+                <object CLASS="ch.unige.ng.problems.santafe.context.FileBoard" id="board">
+                    <parameter NAME="filename" VALUE="config/santafe/santafe.trl"/>
+                </object>
+            </fitness>
+
+            <geneFactory CLASS="ch.unige.ng.species.stackGP.factories.ProbabilityStackGPGeneFactory">
+                <parameter NAME="terminalProbability" VALUE="0.05"/>
+                <object reference="fitness"/>
+                <object reference="context"/>
+                <!-- Defining operation list -->
+                <object CLASS="ch.unige.ng.problems.santafe.operations.Move">
+                    <object reference="board"/>
+                </object>
+                <object CLASS="ch.unige.ng.problems.santafe.operations.Left"/>
+                <object CLASS="ch.unige.ng.problems.santafe.operations.Right"/>
+                <object CLASS="ch.unige.ng.problems.santafe.operations.IfFoodAhead">
+                    <object reference="board"/>
+                </object>
+                <object CLASS="ch.unige.ng.species.stackGP.operations.controls.Else"/>
+                <object CLASS="ch.unige.ng.species.stackGP.operations.controls.End"/>
+                <!--                <object CLASS="ch.unige.ng.problems.santafe.operations.Prog"/>-->
+            </geneFactory>
+
+        </individual>
+
+
+        <breeder probabilities="0.3;0.7">
+            <object CLASS="ch.unige.ng.ops.mutation.GeneralMutation">
+                <parameter NAME="mutationProbability" VALUE="0.8"/>
+                <parameter NAME="insertionProbability" VALUE="0.1"/>
+                <parameter NAME="deletionProbability" VALUE="0.1"/>
+            </object>
+
+            <object CLASS="ch.unige.ng.ops.crossover.VarSizeOnePointCrossOver">
+                <parameter NAME="politic" VALUE="RANDOM"/>
+            </object>
+        </breeder>
+
+
+        <selection CLASS="ch.unige.ng.ops.select.KTournamentSelector">
+            <parameter NAME="size" VALUE="7"/>
+        </selection>
+
+        <log>
+            <endCondition/>
+            <frequencyCondition frequency="1"/>
+            <logger>
+                <statistic CLASS="ch.unige.ng.statistics.BestStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.MeanStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.WorstStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.EverBestStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.STDStatistic"/>
+
+                <writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true">
+                    <parameter NAME="separator" VALUE="\t"/>
+                </writer>
+            </logger>
+        </log>
+        <log>
+            <endCondition/>
+            <frequencyCondition frequency="10"/>
+            <logger>
+                <statistic CLASS="ch.unige.ng.statistics.BestPrinter"/>
+                <writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true">
+                    <parameter NAME="separator" VALUE="\t"/>
+                </writer>
+            </logger>
+        </log>
+
+
+        <log>
+            <endCondition/>
+            <frequencyCondition frequency="5"/>
+            <logger>
+                <statistic CLASS="ch.unige.ng.statistics.BestPrinter"/>
+                <writer CLASS="ch.unige.ng.problems.santafe.io.BoardPainter">
+                    <object reference="evaluator" NAME="evaluator"/>
+                    <object reference="board" NAME="board"/>
+                </writer>
+            </logger>
+        </log>
+
+
+        <halt CLASS="ch.unige.ng.halt.MaximumStepHalting">
+            <parameter NAME="step" VALUE="1000"/>
+        </halt>
+
+    </genetic>
+</program>

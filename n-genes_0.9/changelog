@@ -1,0 +1,50 @@
+RELEASE 0.9 (2005-11-18)
+========================
+
+IMPORTANT
+ - Name change: now EPKit is n-genes. <falcone@cui.unige.ch> (2005-11-18)
+
+BUGFIX
+
+- Many warnings have been suppressed, there remain still a lot. <fontign0@etu.unige.ch> (2005-07-28)
+
+FEATURES
+
+ - Created the basic ebuild for gentoo <fontign0@etu.unige.ch> (2005-09-08)
+	
+ - Permutable individual implemented, there are some bug. <fontign0@etu.unige.ch> (2005-08-05)
+ - New cacheFitness used to cache individuals into hashmap. Some classes have been moved. <fontign0@etu.unige.ch> (2005-07-28)
+
+RELEASE 0.8.1 (2005-07-27)
+==========================
+
+
+BUGFIX
+ - Some logs have been rewritten. The hook for the shutting function
+   starts at the beginning of the genetic algorithm. <fontign0@etu.unige.ch> (2005-07-27)   
+
+ - The 'ops.utils.Breeder' class works as described. <fontign0@etu.unige.ch> (2005-06-21)
+
+ - The population size is now modifiable during execution.  <fontign0@etu.unige.ch> (2005-06-05)
+
+FEATURES
+ 
+ - New formater for config files logger: 'tools.log.HtmlFormatter'.  <fontign0@etu.unige.ch> (2005-07-26)
+
+ - Added the method 'nextLong()' to the 'tools.rng.RNG' interface. <falcone@cui.unige.ch> (2005-07-25)
+
+ - New logging features for the parsing of config files.  <fontign0@etu.unige.ch> (2005-07-24) 
+
+ - New StackGP crossover: 'ops.crossover.stackGP.SubTreeCrossover'. <fontign0@etu.unige.ch> (2005-07-03)
+
+ - 'tools.io.FilePrinter' class can now write in 'gzip' compressed files.  <fontign0@etu.unige.ch> (2005-06-25) 
+
+ - The 'ShutdownHook' in Genetic can now be killed by pressing 'enter'.  <fontign0@etu.unige.ch> (2005-06-05)
+
+ - Added the ops.crossover.ChickenHeadLessCrossover <fontign0@etu.unige.ch> (2005-06-05)
+
+ - New Initializers: species.initializers.BuildInitializer and GrowInitializer. <fontign0@etu.unige.ch> (2005-06-05)
+
+
+RELEASE 0.8 (2005-06-01)
+========================

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE program SYSTEM "./genetic.dtd">
+
+<!-- A config file to resolve the minimum of the michalewicz function:
+
+
+
+ -->
+
+<program>
+
+    <constant NAME="min" VALUE="-600"/>
+    <constant NAME="max" VALUE="600"/>
+    <constant NAME="maxSize" VALUE="1000"/>
+
+    <!-- Creating the genetic algorithm -->
+    <genetic popSize="100" safeShutting="true">
+        <population/>
+
+        <!-- Declaring the context -->
+        <context CLASS="ch.unige.ng.gen.Context" id="context">
+            <random CLASS="ch.unige.ng.tools.rng.MersenneTwister" seed="#seed#"/>
+        </context>
+
+        <!-- Declaring the individual with the fitness and the factory -->
+        <individual CLASS="ch.unige.ng.species.VariableSizeIndividual" indSize="#maxSize#">
+            <initializer CLASS="ch.unige.ng.species.initializers.stackGP.FullInitializer">
+                <parameter NAME="minDepth" VALUE="5"/>
+                <parameter NAME="maxDepth" VALUE="5"/>
+                <object reference="context"/>
+            </initializer>
+
+            <fitness CLASS="ch.unige.ng.fitness.FormulaFitness" id="fitness">
+                <parameter NAME="min" VALUE="#min#"/>
+                <parameter NAME="max" VALUE="#max#"/>
+                <parameter NAME="numTests" VALUE="60"/>
+                <parameter NAME="equation" VALUE="x*x + y*y"/>
+                <object reference="context"/>
+                <object CLASS="ch.unige.ng.species.stackGP.evaluations.Evaluator" id="evaluator">
+                    <parameter NAME="iterationMax" VALUE="10000"/>
+                </object>
+            </fitness>
+
+            <geneFactory CLASS="ch.unige.ng.species.stackGP.factories.ProbabilityStackGPGeneFactory">
+                <parameter NAME="terminalProbability" VALUE="0.1"/>
+                <object reference="fitness"/>
+                <object reference="context"/>
+                <!-- Defining operation list -->
+                <object CLASS="ch.unige.ng.species.stackGP.operations.doubles.Add"/>
+                <object CLASS="ch.unige.ng.species.stackGP.operations.doubles.Subst"/>
+                <object CLASS="ch.unige.ng.species.stackGP.operations.doubles.Mul"/>
+                <object CLASS="ch.unige.ng.species.stackGP.operations.doubles.Div"/>
+            </geneFactory>            
+
+
+        </individual>
+
+        <pipe>
+            <crossover CLASS="ch.unige.ng.ops.crossover.stackGP.SubTreeCrossover">
+                <parameter NAME="cleaning" VALUE="true"/>
+            </crossover>
+            <mutation CLASS="ch.unige.ng.ops.mutation.stackGP.SmartPromoter">
+                <parameter NAME="maxSize" VALUE="10"/>
+            </mutation>
+        </pipe>
+
+        <!-- Defining the selection method-->
+        <selection CLASS="ch.unige.ng.ops.select.KTournamentSelector" id="selector">
+            <parameter NAME="size" VALUE="5"/>
+        </selection>
+
+        <!-- Running a timer -->
+
+        <event>
+            <condition CLASS="ch.unige.ng.timer.conditions.EndCondition"/>
+            <listener CLASS="ch.unige.ng.timer.PopulationModifier">
+                <object CLASS="ch.unige.ng.ops.mutation.stackGP.BackwardCleaner"/>
+            </listener>
+        </event>
+
+        <log>
+            <frequencyCondition frequency="1"/>
+
+
+            <logger>
+                <statistic CLASS="ch.unige.ng.statistics.BestStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.MedianStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.WorstStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.EverBestStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.MeanLengthStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.WallClockStatistic"/>
+
+                <writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true">
+                    <parameter NAME="header" VALUE="true"/>
+                    <parameter NAME="separator" VALUE="\t"/>
+                </writer>
+            </logger>
+        </log>
+
+        <log>
+            <endCondition/>
+            <logger>
+                <statistic CLASS="ch.unige.ng.statistics.BestPrinter"/>
+                <writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true"/>
+            </logger>
+        </log>
+
+
+        <halt CLASS="ch.unige.ng.halt.MaximumFitnessHalting">
+            <parameter NAME="threshold" VALUE="EPS"/>
+        </halt>
+        <halt CLASS="ch.unige.ng.halt.MaximumStepHalting">
+            <parameter NAME="step" VALUE="1000"/>
+        </halt>
+
+
+    </genetic>
+</program>

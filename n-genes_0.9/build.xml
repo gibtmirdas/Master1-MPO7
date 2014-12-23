@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<project name="n-genes" default="all" basedir=".">
+    <description>
+        The build for n-genes. It can create the java doc and create the jar.
+        If you want to create the jar, then write: ant
+    </description>
+    <!-- set global properties for this build -->
+    <property name="version" value="0.9"/>
+    <property name="src" location="src"/>
+    <property name="build" location="classes"/>
+    <property name="doc" location="doc"/>
+    <property name="jarfile" value="n-genes.jar"/>
+    <property name="mainclass" value="ch/unige/ng/bin/NGenes"/>
+
+    <path id="compile.classpath">
+        <pathelement path="${java.class.path}"/>
+    </path>
+
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build}"/>
+        <!-- Create the javadoc directory -->
+        <mkdir dir="${doc}"/>
+
+    </target>
+
+
+    <target name="compile" depends="init"
+        description="compile the source ">
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac srcdir="${src}" destdir="${build}">            
+            <classpath refid="compile.classpath"/>
+        </javac>
+    </target>
+
+    <target name="clean"
+        description="clean up">
+        <!-- Delete the ${build} and ${dist} directory trees -->
+        <delete dir="${build}"/>
+        <delete dir="${doc}"/>
+        <delete file="${jarfile}"/>
+    </target>
+
+    <target name="javadoc" depends="init"
+        description="create javadoc">
+        <javadoc
+            packagenames="*"
+            sourcepath="${src}"
+            author="true"
+            version="true"
+            destdir="${doc}"
+            windowtitle="n-genes javadoc ${version}">
+            <classpath refid="compile.classpath"/>
+        </javadoc>
+    </target>
+
+    <target name="jar" depends="compile"
+        description="Create the jar">
+        <jar destfile="${jarfile}" basedir="${build}">
+            <manifest>
+                <attribute name="Main-Class" value="${mainclass}" /> 
+                <attribute name="version" value="${version}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="all" depends="clean, javadoc,jar"
+        description="Create the javadoc and the jar file"/>
+
+</project>

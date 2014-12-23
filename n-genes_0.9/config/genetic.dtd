@@ -1,0 +1,249 @@
+<!--
+    This dtd declares a config file for a genetic algorithm.
+
+    Fontignie Jacques
+
+    It is important to note that each element can use a reference for object. The most of the time, this is totally
+    useless.
+-->
+
+
+<!ELEMENT program (constant*,temporary?,genetic)>
+
+<!ENTITY % schema  SYSTEM "schema/config.dtd">
+
+%schema;
+
+<!-- Definiion of the temporary elements, can be used to create some objects thta will be referenced -->
+<!ELEMENT temporary (object*)>
+
+<!ELEMENT constant EMPTY>
+<!ATTLIST constant
+    NAME CDATA #REQUIRED
+    VALUE CDATA #REQUIRED
+>
+
+<!-- Definition of the main genetic programming function -->
+<!ELEMENT genetic (population,context,individual,(mutation|crossover|operator|pipe|breeder)+,selection,(event|log)*,halt+)>
+<!ATTLIST genetic
+            NAME CDATA #IMPLIED
+            CLASS CDATA "ch.unige.ng.bin.Genetic"
+            popSize CDATA #REQUIRED
+            time (true|false) "true"
+            safeShutting (true|false) "false"
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!ELEMENT population (object*,parameter*)>
+<!ATTLIST population
+            CLASS CDATA "ch.unige.ng.populations.BasicPopulation"
+            NAME CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!-- It is necessary to determine the type of the individual -->
+<!ELEMENT individual (initializer?, parameter*,((geneFactory,fitness)|(fitness,geneFactory)),printer?,object*)>
+<!ATTLIST individual
+            CLASS CDATA "ch.unige.ng.species.stackGP.StackGPIndividual"
+            indSize CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!ELEMENT initializer (parameter|object)*>
+<!ATTLIST initializer
+        CLASS CDATA #IMPLIED
+        id ID #IMPLIED
+        reference IDREF #IMPLIED
+>
+
+<!-- The context contains essentially the number generator and the problem itself-->
+<!ELEMENT context (random,(object|parameter))>
+<!ATTLIST context
+                CLASS CDATA "ch.unige.ng.gen.Context"
+                id ID #IMPLIED
+                reference IDREF #IMPLIED
+>
+
+<!-- the random generator -->
+<!ELEMENT random (object|parameter)*>
+<!ATTLIST random
+                CLASS CDATA #REQUIRED
+                seed CDATA #IMPLIED
+>
+
+<!-- the fitness function -->
+<!ELEMENT fitness (parameter| object)*>
+<!ATTLIST fitness
+            NAME CDATA #IMPLIED
+            CLASS CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!-- The printer used to print the individual -->
+<!ELEMENT printer (parameter|object)*>
+<!ATTLIST printer
+            NAME CDATA #IMPLIED
+            CLASS CDATA #REQUIRED
+            id ID #IMPLIED
+>
+
+<!-- It defines how does the function work -->
+<!ELEMENT geneFactory (parameter|object)*>
+<!ATTLIST geneFactory
+            NAME CDATA #IMPLIED
+            CLASS CDATA #REQUIRED
+            id ID #IMPLIED
+>
+
+<!-- It defines the different operator -->
+<!ELEMENT operator (object|parameter)*>
+<!ATTLIST operator
+            NAME CDATA #IMPLIED
+            CLASS CDATA #REQUIRED
+            id ID #IMPLIED
+>
+
+<!-- It defines the breeder-->
+<!ELEMENT breeder (mutation|crossover|operator|pipe|breeder|object|parameter)+ >
+<!ATTLIST breeder
+            CLASS CDATA "ch.unige.ng.ops.utils.Breeder"
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+            probabilities CDATA #REQUIRED
+>
+
+
+<!-- It defines the mutation algorithm -->
+<!ELEMENT mutation (object|parameter)*>
+<!ATTLIST mutation
+            NAME CDATA #IMPLIED
+            CLASS CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!ELEMENT pipe (((object|parameter)*,(mutation*|crossover*|operator*|breeder*)+)*)>
+<!ATTLIST pipe
+            NAME CDATA #IMPLIED
+            CLASS CDATA "ch.unige.ng.ops.utils.Pipe"
+            probability CDATA #IMPLIED
+            id ID #IMPLIED
+>
+
+<!-- It defines the crossover that can be made on an individual -->
+<!ELEMENT crossover (object|parameter)*>
+<!ATTLIST crossover
+            NAME CDATA #IMPLIED
+            CLASS CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+
+<!-- the selection mode -->
+<!ELEMENT selection (parameter|object)*>
+<!ATTLIST selection
+            NAME CDATA #IMPLIED
+            CLASS CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!ELEMENT event (endCondition?,frequencyCondition*,condition*,listener)>
+<!ATTLIST event
+            CLASS CDATA "ch.unige.ng.timer.EventTimer"
+            id ID #IMPLIED
+>
+
+
+<!ELEMENT log ((endCondition|frequencyCondition|condition)+,logger,(object|parameter)*)>
+<!ATTLIST log
+            CLASS CDATA "ch.unige.ng.timer.GeneticTimer"
+            id ID #IMPLIED
+ >
+
+<!ELEMENT endCondition EMPTY>
+<!ATTLIST endCondition
+            CLASS CDATA "ch.unige.ng.timer.conditions.EndCondition"
+            id ID #IMPLIED
+>
+
+<!ELEMENT frequencyCondition EMPTY>
+<!ATTLIST frequencyCondition
+            CLASS CDATA "ch.unige.ng.timer.conditions.FrequencyCondition"
+            frequency CDATA #REQUIRED
+            id ID #IMPLIED
+>
+
+
+<!ELEMENT condition (parameter|object)*>
+<!ATTLIST condition
+            CLASS CDATA #REQUIRED
+            id ID #IMPLIED
+>
+
+
+<!ELEMENT logger (statistic+,writer+,parameter*,object*) >
+<!ATTLIST logger
+            CLASS CDATA "ch.unige.ng.tools.io.Logger"
+            id ID #IMPLIED
+>
+
+<!ELEMENT listener (parameter|object)* >
+<!ATTLIST listener
+            CLASS CDATA #IMPLIED
+            reference IDREF #IMPLIED
+            id ID #IMPLIED
+>
+
+
+<!ELEMENT statistic (parameter|object)*>
+
+<!ATTLIST statistic
+            NAME CDATA #IMPLIED
+            CLASS CDATA #IMPLIED
+            reference IDREF #IMPLIED
+            id ID #IMPLIED
+>
+
+<!ELEMENT writer (object*,parameter*,fileprinter*)>
+<!ATTLIST writer
+            CLASS CDATA #REQUIRED
+            console (true|false) #IMPLIED
+            id ID #IMPLIED
+>
+
+<!ELEMENT fileprinter (parameter|object)*>
+<!ATTLIST fileprinter
+            CLASS CDATA "ch.unige.ng.tools.io.FilePrinter"
+            NAME CDATA #IMPLIED
+            clobber (true|false) "false"
+            compressed (true|false) "false"
+            id ID #IMPLIED
+>
+
+<!ELEMENT halt (parameter|object)*>
+<!ATTLIST halt
+            CLASS CDATA #REQUIRED
+            id ID #IMPLIED
+>
+
+<!ELEMENT object (parameter|object)*>
+<!ATTLIST object
+            NAME CDATA #IMPLIED
+            CLASS CDATA #IMPLIED
+            id ID #IMPLIED
+            reference IDREF #IMPLIED
+>
+
+<!ELEMENT parameter EMPTY>
+<!ATTLIST parameter
+            NAME CDATA #REQUIRED
+            VALUE CDATA #REQUIRED
+>
+
+

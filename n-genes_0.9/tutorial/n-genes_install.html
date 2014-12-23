@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<meta name="generator" content="AsciiDoc 7.0.0"/>
+<style type="text/css">
+/* Debug borders */
+p, li, dt, dd, div, pre, h1, h2, h3, h4, h5, h6 {
+/*
+  border: 1px solid red;
+*/
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a { color: blue; }
+a:visited { color: fuchsia; }
+
+span.emphasis {
+  font-style: italic;
+}
+
+span.strong {
+  font-weight: bold;
+}
+
+span.monospaced {
+  font-family: monospace;
+  color: navy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  font-family: sans-serif;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  border-bottom: 2px solid silver;
+  padding-top: 0.5em;
+}
+
+div.sectionbody {
+  font-family: serif;
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+span#author {
+  color: #527bbd;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+span#email {
+}
+span#revision {
+  font-family: sans-serif;
+}
+
+div#footer {
+  font-family: sans-serif;
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+div#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+div#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+div#preamble,
+div.tableblock, div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-right: 10%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid silver;
+  background: #f4f4f4;
+  padding: 0.5em;
+}
+
+div.quoteblock > div.content {
+  padding-left: 2.0em;
+}
+div.quoteblock .attribution {
+  text-align: right;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 2px solid silver;
+}
+
+div.exampleblock > div.content {
+  border-left: 2px solid silver;
+  padding: 0.5em;
+}
+
+div.verseblock div.content {
+  white-space: pre;
+}
+
+div.imageblock div.content { padding-left: 0; }
+div.imageblock img { border: 1px solid silver; }
+span.image img { border-style: none; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: italic;
+}
+dd > *:first-child {
+  margin-top: 0;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.olist2 {
+  list-style-type: lower-alpha;
+}
+
+div.tableblock > table {
+  border-color: #527bbd;
+  border-width: 3px;
+}
+thead {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+tfoot {
+  font-weight: bold;
+}
+
+div.hlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+td.hlist1 {
+  vertical-align: top;
+  font-style: italic;
+  padding-right: 0.8em;
+}
+td.hlist2 {
+  vertical-align: top;
+}
+
+@media print {
+  div#footer-badges { display: none; }
+}
+/* Workarounds for IE6's broken and incomplete CSS2. */
+
+div.sidebar-content {
+  background: #ffffee;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+div.sidebar-title, div.image-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 0.0em;
+  margin-bottom: 0.5em;
+}
+
+div.listingblock div.content {
+  border: 1px solid silver;
+  background: #f4f4f4;
+  padding: 0.5em;
+}
+
+div.quoteblock-content {
+  padding-left: 2.0em;
+}
+
+div.exampleblock-content {
+  border-left: 2px solid silver;
+  padding-left: 0.5em;
+}
+</style>
+<title>n-genes User Guide</title>
+</head>
+<body>
+<div id="header">
+<h1>n-genes User Guide</h1>
+<span id="author">Jean-Luc FALCONE</span><br />
+<span id="email"><span class="monospaced">&lt;<a href="mailto:jean-luc.falcone@cui.unige.ch">jean-luc.falcone@cui.unige.ch</a>&gt;</span></span><br />
+<span id="revision">version 0.9,</span>
+18 nov. 2005
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<h2> Table of Content </h2>
+<ul>
+<li><a href="#1">1. Introduction</a>
+</li>
+<li><a href="#2">2. Requirements</a>
+<ul>
+<li><a href="#21">2.1. Software</a>
+</li>
+<li><a href="#22">2.2. Hardware</a>
+</li>
+
+</ul>
+
+</li>
+<li><a href="#3">3. Installation</a>
+<ul>
+<li><a href="#31">3.1. Installation on Linux and other Un*x</a>
+</li>
+<li><a href="#32">3.2. Installation on MS-Windows</a>
+</li>
+
+</ul>
+
+</li>
+<li><a href="#4">4. What's Included ?</a>
+</li>
+<li><a href="#5">5. Usage</a>
+</li>
+<li><a href="#6">6. Further informations</a></li>
+</ul>
+
+</div>
+</div>
+<h2 ID='1'>1. Introduction</h2>
+<div class="sectionbody">
+<p>N-genes is a complete genetic algorithm/programing framework written in
+<a href="http://java.sun.com">Java</a>. Its main advantages are:</p>
+<ul>
+<li>
+<p>
+Simple and componentized API, allowing a very fast implementation of various
+problems, operators, selectors, etc. ;
+</p>
+</li>
+<li>
+<p>
+Light and human readable XML config files, which can instantiate every user written
+components, through  <span class="emphasis">dynamic class loading'and 'introspection</span> technologies;
+</p>
+</li>
+<li>
+<p>
+Various optimisation techniques like <span class="emphasis">objects pooling</span> and <span class="emphasis">multi-level caches</span>.
+</p>
+</li>
+</ul>
+</div>
+<h2 ID='2'>2. Requirements</h2>
+<div class="sectionbody">
+<h3 ID='21'>2.1. Software</h3>
+<p>N-genes is a framework built on the Java J2SE 5.0 plateform. To check if
+everything is installed you can type on a shell:</p>
+<div class="listingblock">
+<div class="content">
+<pre><span class="monospaced">$ java -version
+java version "1.5.0_02"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.5.0_02-b09)
+Java HotSpot(TM) Client VM (build 1.5.0_02-b09, mixed mode)</span></pre>
+</div></div>
+<p>The java version returned must be greater or equals to "1.5.0". You can
+download an up-to-date JDK on <a href="http://java.sun.com/j2se/1.5.0/download.jsp">Sun site</a>.</p>
+<h3 ID='22'>2.2. Hardware</h3>
+<p>The whole framework takes 14 MB of hardisk once installed. But if you delete
+the source and documentation directories (<span class="monospaced">src/</span> and <span class="monospaced">doc/</span>), the needed disk
+space will fall under 2MB.</p>
+<p>There are no particular requirements on RAM but the most you have, better
+the performances will be. We advise at least 256 MB, but 1GB is better.</p>
+</div>
+<h2 ID='3'>3. Installation</h2>
+<div class="sectionbody">
+<h3 ID='31'>3.1. Installation on Linux and other Un*x</h3>
+<ul>
+<li>
+<p>
+Download the latest tarball at <a href="http://cui.unige.ch/spc/">http://cui.unige.ch/spc/</a>.
+</p>
+</li>
+<li>
+<p>
+Copy it where you want to install your apps.
+</p>
+</li>
+<li>
+<p>
+Unarchive with:
+</p>
+</li>
+</ul>
+<div class="listingblock">
+<div class="content">
+<pre><span class="monospaced">$ tar -jxvf n-genes_&lt;version&gt;.tar.bz2</span></pre>
+</div></div>
+<h3 ID='32'>3.2. Installation on MS-Windows</h3>
+<ul>
+<li>
+<p>
+Download the latest tarball at <a href="http://cui.unige.ch/spc/">http://cui.unige.ch/spc/</a>.
+</p>
+</li>
+<li>
+<p>
+Copy it where you want to install your apps.
+</p>
+</li>
+<li>
+<p>
+Use your favorite program to expand it. If you hesitate,
+   you should try <a href="http://www.7-zip.org/">7-zip</a> (open source).
+</p>
+</li>
+</ul>
+</div>
+<h2 ID='4'>4. What's Included ?</h2>
+<div class="sectionbody">
+<p><span class="emphasis">n-genes</span> is organised as follows:</p>
+<dl>
+<dt>
+<span class="monospaced">n-genes.jar</span>
+</dt>
+<dd>
+<p>
+the <span class="emphasis">n-genes</span> framework runtime;
+</p>
+</dd>
+<dt>
+<span class="monospaced">build.xml</span>
+</dt>
+<dd>
+<p>
+an ant building file for the whole project;
+</p>
+</dd>
+<dt>
+<span class="monospaced">config/</span>
+</dt>
+<dd>
+<p>
+an directory containing the <span class="emphasis">DTD</span> and <span class="emphasis">xml-schemas</span> needed
+by the <span class="emphasis">xml</span> config files amd differents exemples.
+</p>
+</dd>
+<dt>
+<span class="monospaced">doc/</span>
+</dt>
+<dd>
+<p>
+the API JavaDoc directory &#8212; to read it, point your web browser to <span class="monospaced">&lt;installPath&gt;/doc/index.html</span>;
+</p>
+</dd>
+<dt>
+<span class="monospaced">src/</span>
+</dt>
+<dd>
+<p>
+the sources directory;
+</p>
+</dd>
+<dt>
+<span class="monospaced">tutorial</span>
+</dt>
+<dd>
+<p>
+some tutorials introducing <span class="emphasis">n-genes</span> (same as those on the web site).
+</p>
+</dd>
+</dl>
+</div>
+<h2 ID='5'>5. Usage</h2>
+<div class="sectionbody">
+<p>First, you need to add the <span class="emphasis">n-genes</span> jar to your <span class="emphasis">CLASSPATH</span> variable.
+Then you can invoke <span class="monospaced">n-genes</span> with:</p>
+<div class="listingblock">
+<div class="content">
+<pre><span class="monospaced">$ java [vm_flags] ch.unige.ng.bin.NGenes --file &lt;config_file.xml&gt;</span></pre>
+</div></div>
+<p>where <span class="monospaced">&lt;config_file.xml&gt;</span> is the name of your config file (required)
+and <span class="monospaced">[vm_flags]</span> the optional java virtual machine flags. We advise to
+use <span class="monospaced">-server</span> wich provides deeper <span class="emphasis">hotspot</span> optimisations and
+<span class="monospaced">-Xmx</span> / <span class="monospaced">-Xms</span> to augment the maximum/initial heap size.</p>
+<p>If you choose to implement you own classes, we advice to begin
+a new package tree and add it to the <span class="emphasis">CLASSPATH</span> variable.</p>
+</div>
+<h2 ID='6'>6. Further informations</h2>
+<div class="sectionbody">
+<p>You can find further informations browsing the APIs javadoc or
+reading the tutorials.</p>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 0.9<br />
+Last updated 25-Nov-2005 10:48:34 CEST
+</div>
+</div>
+</body>
+</html>

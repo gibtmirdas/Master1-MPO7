@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE program SYSTEM "./genetic.dtd">
+
+<program>
+    <constant NAME="seed" VALUE="0"/>
+    <genetic popSize="1000">
+        <population/>
+
+        <context id="context">
+            <random CLASS="ch.unige.ng.tools.rng.MersenneTwister" seed="#seed#"/>
+        </context>
+
+        <individual CLASS="ch.unige.ng.species.PermutableIndividual" id="prototype">
+
+            <geneFactory CLASS="ch.unige.ng.problems.tsp.TSPGeneFactory">
+                <parameter NAME="fileName" VALUE="config/tsp/problem1.tsp"/>
+                <object reference="context"/>
+            </geneFactory>
+
+            <fitness CLASS="ch.unige.ng.problems.tsp.TSPFitness"/>
+
+        </individual>
+
+
+        <crossover CLASS="ch.unige.ng.ops.permutables.SwapCrossover"/>                   
+
+        <mutation CLASS="ch.unige.ng.ops.permutables.SwapMutation"/>
+
+        <selection CLASS="ch.unige.ng.ops.select.KTournamentSelector">
+            <parameter NAME="size" VALUE="5"/>
+        </selection>
+
+        <!-- Running a timer -->
+        <log>
+            <!-- The timer will be fired at frequency 2-->
+            <frequencyCondition frequency="5"/>
+            <!--            <endCondition/>-->
+
+            <!-- The logger that output data -->
+            <logger>
+                <!-- we will print the best individual -->
+                <statistic CLASS="ch.unige.ng.statistics.BestStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.MeanStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.WorstStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.EverBestStatistic"/>
+                <statistic CLASS="ch.unige.ng.statistics.STDStatistic"/>
+                <writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true">
+                    <parameter NAME="header" VALUE="true"/>
+                    <parameter NAME="separator" VALUE="\t"/>
+                </writer>
+            </logger>
+        </log>
+
+
+        <!-- Creating halting functions -->
+
+        <!-- If the threshold is under EPS, the program is terminated -->
+        <halt CLASS="ch.unige.ng.halt.MaximumStepHalting">
+            <parameter NAME="step" VALUE="5000"/>
+        </halt>
+
+    </genetic>
+</program>

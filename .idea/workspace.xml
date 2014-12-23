@@ -1,7 +1,1082 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d405c37-efaf-4d1e-8d35-2189b344c939" name="Default" comment="" />
+    <list default="true" id="2d405c37-efaf-4d1e-8d35-2189b344c939" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/callouts/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/AbstractIndividual.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/AbstractPermutableGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/factories/AbstractStackGPGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/io/writer/AbstractWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Add.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/And.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/AndCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/AndFunction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/ArrayIterator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/ArrayReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/ArrayShuffler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/ArraysFormatter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/AttributesDecorator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/BackwardCleaner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/initializers/BasicInitializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/BasicOnePointCrossOver$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/BasicOnePointCrossOver$Politic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/BasicOnePointCrossOver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/BasicPointMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/BasicPopulation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/BeginWhile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/BestPrinter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/BestSelector$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/BestSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/select/BestSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/BestStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board$Direction$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board$Direction$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board$Direction$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board$Direction$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board$Direction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/Board.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/io/BoardPainter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/booleans/BooleanGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/utils/Breeder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/pool/BufferedStack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/bytes/ByteGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/CacheHitStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/CacheSize.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/CacheSizeStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/CacheStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/cache/CachedFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/CachingObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/CachingPopulation$ContainerCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/CachingPopulation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/ChickenHeadlessCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/formulas/Compiler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/Compl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/Condition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/ConfigHandler$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/ConfigHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Const.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/ConstantHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/gen/Context.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/Control$Type.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/Control.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/evaluations/ControlEvaluator$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/evaluations/ControlEvaluator$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/evaluations/ControlEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/evaluations/ControlEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/pool/Copiable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Cos.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/Crossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/DTDContext$Type.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/DTDContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/DataStack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/io/writer/DefaultWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Del.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/Deleter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/DifferentStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/DisruptiveCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Div.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/doubles/DoubleGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/DoubleMaxOnes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/DoubleOffspringCrossOver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Dupl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/utils/Elitist.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/Else.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/End.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/EndCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/EndWhile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/fitness/EnhancedSantaFeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/Equ.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/formulas/Equation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/EquationCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/EquationFunction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/Evaluable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/evaluations/Evaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/EventTimer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/EverBestStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/ExecutionPointer$ControlMove.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/ExecutionPointer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Exp.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/FastProbabilityMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/context/FileBoard.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/io/FilePrinter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/FirstCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/Fitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/Flushable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/FoodAhead$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/FoodAhead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/Forced.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/FormulaFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/formulas/FormulaParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/ForwardCleaner$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/ForwardCleaner$DeletionMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/ForwardCleaner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/FrequencyBiasedCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/FrequencyCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/initializers/stackGP/FullInitializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/cache/GPCachedFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/GPFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/utils/GPNormalizeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/GeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/GeneralMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/gen/Generation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/GenerationCacheHitStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/bin/Genetic$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/bin/Genetic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/gen/GeneticAlgorithm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/GeneticListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/GeneticLogger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/GeneticTimer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/GenotypeStdStatistic$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/GenotypeStdStatistic$BooleanCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/GenotypeStdStatistic$Calculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/GenotypeStdStatistic$DoubleCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/GenotypeStdStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/GlobalGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/GlobalIndividual.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/utils/GrayCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/GrayCodeFitness$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/GrayCodeFitness$PseudoEvaluable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/GrayCodeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/printers/GrayCodePrinter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/jumps/GreaterJump.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/griewangk/GriewangkFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/Group.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/initializers/stackGP/GrowInitializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/GuidedSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/HaltFunction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/log/HtmlFormatter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/log/HtmlFormatter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/evaluations/IEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/IGroup$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/IGroup.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/objects/IParserObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/factories/IStackGPGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/controls/If.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/IfFoodAhead$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/IfFoodAhead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/Impl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/jumps/InconditionalJump.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/Individual.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/Initializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/Inserter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/integers/IntegerGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/IntervalGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/rng/JavaUtilRandom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/KTournamentSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/select/KTournamentSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/Left.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/ListInserter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Log.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/io/writer/LogWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/io/Logger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/MaxLengthStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/MaxOnes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/MaximumFitnessHalting.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/MaximumStepHalting.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$ByteMean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$DoubleMean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$FloatMean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$IntegerMean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$LongMean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$Mean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover$ShortMean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/MeanCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/MeanLengthStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/MeanStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/utils/Median.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/MedianStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/rng/MersenneTwister.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/rng/mt/MersenneTwisterFast.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/mirror/MirrorFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/Move$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/Move.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Mul.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/MultiDeleter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/MultipleFormulaFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/MultiplePointMutation$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/MultiplePointMutation$MutationMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/MultiplePointMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/MultipleSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/Mutator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/bin/NGenes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/nklandscape/NKLandscapeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/nklandscape/NKLandscapePrinter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/nklandscape/NKlandscapeWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/nklandscape/NkLandscapeReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Nop.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/utils/NormalizableFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/utils/NormalizeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/Not.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/objects/ObjectCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/pool/ObjectPool.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Operation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/OperationConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/Operator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/Or.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/OrFunction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/ParserException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/objects/ParserObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/Permutable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/PermutableGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/PermutableIndividual.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/utils/Pipe.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/Plague.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/pool/Poolable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/Population.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/PopulationModifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/PopulationPrinter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/printers/Printer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/PriorityMutation$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/PriorityMutation$Order.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/PriorityMutation$PriorityMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/PriorityMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/ProbabilityMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/factories/ProbabilityStackGPGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/Prog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/Promoter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Push.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/rng/RNG.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/RandomBranchDeleter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/RandomBranchInserter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/quartic/RandomQuarticFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/RandomSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/select/RandomSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/utils/Replicator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/objects/RescueObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/operations/Right.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Rotate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/SQRT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/STDStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/santafe/fitness/SantaFeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/SelectionEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/select/Selector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/bin/ShuttingFunction$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/bin/ShuttingFunction$KeyBoardReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/bin/ShuttingFunction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/utils/SimpleBreeder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/factories/SimpleStackGPGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Sin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/SingleOffspringCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/SizeFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/jumps/SmallerJump.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/stackGP/SmartPromoter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/timer/conditions/StableFitnessCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/halt/StableFitnessHalting.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/initializers/stackGP/StackGPInitializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/Statistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/StatisticCache$StatisticContainer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/StatisticCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/StatisticalMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/mutation/StochasticMutation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/stackGP/SubListSGPCO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/stackGP/SubTreeCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/doubles/Subst.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/sum/SumFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/Swap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/permutables/SwapCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/tsp/TSPFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/tsp/TSPGeneFactory$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/tsp/TSPGeneFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/cache/TemporaryEvaluable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/problems/tsp/Town.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/TwoPointsCrossover$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/TwoPointsCrossover$Politic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/TwoPointsCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/fitness/UndeterministicFitness.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/UniformCrossover.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/UniquePopulation$ContainerCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/populations/UniquePopulation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/VarSizeOnePointCrossOver$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/VarSizeOnePointCrossOver$Politic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/crossover/VarSizeOnePointCrossOver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/VariableSize.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/VariableSizeIndividual.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/VectorIndividual.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/evaluations/VerboseEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/WallClockStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/WorstBiggerSelector$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/guided/WorstBiggerSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/ops/utils/WorstDeleter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/statistics/WorstStatistic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/tools/parser/XMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/classes/ch/unige/ng/species/stackGP/operations/booleans/Xor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/blank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/caution.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/caution.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/caution.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/draft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/example.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/example.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/important.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/important.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/important.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/resources/inherit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/n-genes.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/nklandscape/nk1000_10.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/nklandscape/nk1000_16.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/smallnew.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/tiger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/toc-blank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/toc-minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/toc-plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/plain/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/AbstractIndividual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/AbstractIndividual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/AbstractPermutableGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/AbstractPermutableGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/AbstractStackGPGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/factories/AbstractStackGPGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/writer/AbstractWriter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/io/writer/AbstractWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Add.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/And.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/And.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/AndCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/AndCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/AndFunction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/AndFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/ArrayIterator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/ArrayIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/ArrayReader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/ArrayReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/ArrayShuffler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/ArrayShuffler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/ArraysFormatter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/ArraysFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/AttributesDecorator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/AttributesDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/BackwardCleaner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/stackGP/BackwardCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/BasicInitializer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/initializers/BasicInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/BasicOnePointCrossOver.Politic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/BasicOnePointCrossOver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/BasicOnePointCrossOver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/BasicPointMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/BasicPointMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/BasicPopulation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/BasicPopulation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/BeginWhile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/controls/BeginWhile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/BestPrinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/BestPrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/BestSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/BestSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/BestSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/select/BestSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/BestStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/BestStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/context/Board.Direction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/context/Board.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/context/Board.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/io/BoardPainter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/io/BoardPainter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/booleans/BooleanGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/booleans/BooleanGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/Breeder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/utils/Breeder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/BufferedStack.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/pool/BufferedStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/bytes/ByteGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/bytes/ByteGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/CacheHitStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/CacheHitStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/CacheSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/CacheSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/CacheSizeStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/CacheSizeStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/CacheStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/CacheStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/cache/CachedFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/cache/CachedFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/CachingObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/CachingObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/CachingPopulation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/CachingPopulation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/ChickenHeadlessCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/ChickenHeadlessCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/formulas/Compiler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/formulas/Compiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/Compl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/Compl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/Condition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/Condition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/ConfigHandler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/ConfigHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Const.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Const.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/ConstantHandler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/ConstantHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/gen/Context.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/gen/Context.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/Control.Type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/Control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/controls/Control.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/evaluations/ControlEvaluator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/ControlEvaluator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/evaluations/ControlEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/evaluations/ControlEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/Copiable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/pool/Copiable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Cos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Cos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/Crossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/Crossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/DTDContext.Type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/DTDContext.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/DTDContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/DataStack.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/DataStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/writer/DefaultWriter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/io/writer/DefaultWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Del.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Del.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/Deleter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/Deleter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/DifferentStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/DifferentStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/DisruptiveCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/DisruptiveCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Div.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Div.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/doubles/DoubleGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/doubles/DoubleGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/DoubleMaxOnes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/DoubleMaxOnes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/DoubleOffspringCrossOver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/DoubleOffspringCrossOver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Dupl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Dupl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/Elitist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/utils/Elitist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/Else.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/controls/Else.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/End.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/controls/End.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/EndCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/EndCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/EndWhile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/controls/EndWhile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/fitness/EnhancedSantaFeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/fitness/EnhancedSantaFeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/Equ.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/Equ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/formulas/Equation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/formulas/Equation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/EquationCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/EquationCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/EquationFunction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/EquationFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/Evaluable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/Evaluable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/Evaluator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/evaluations/Evaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/EventTimer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/EventTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/EverBestStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/EverBestStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/ExecutionPointer.ControlMove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/ExecutionPointer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/ExecutionPointer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Exp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Exp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/FastProbabilityMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/FastProbabilityMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/context/FileBoard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/context/FileBoard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/FilePrinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/io/FilePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/FirstCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/FirstCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/Fitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/Fitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/Flushable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/Flushable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/FoodAhead.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/operations/FoodAhead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/Forced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/Forced.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/FormulaFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/FormulaFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/formulas/FormulaParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/formulas/FormulaParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/ForwardCleaner.DeletionMode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/ForwardCleaner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/stackGP/ForwardCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/FrequencyBiasedCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/FrequencyBiasedCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/FrequencyCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/FrequencyCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/stackGP/FullInitializer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/initializers/stackGP/FullInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/cache/GPCachedFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/cache/GPCachedFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/GPFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/GPFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/utils/GPNormalizeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/utils/GPNormalizeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/GeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/GeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/GeneralMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/GeneralMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/gen/Generation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/gen/Generation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/GenerationCacheHitStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/GenerationCacheHitStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/bin/Genetic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/bin/Genetic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/gen/GeneticAlgorithm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/gen/GeneticAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/GeneticListener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/GeneticListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/GeneticLogger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/GeneticLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/GeneticTimer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/GeneticTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/GenotypeStdStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/GenotypeStdStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/GlobalGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/GlobalGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/GlobalIndividual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/GlobalIndividual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/utils/GrayCode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/utils/GrayCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/GrayCodeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/GrayCodeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/printers/GrayCodePrinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/printers/GrayCodePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/jumps/GreaterJump.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/jumps/GreaterJump.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/griewangk/GriewangkFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/griewangk/GriewangkFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/Group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/Group.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/stackGP/GrowInitializer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/initializers/stackGP/GrowInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/GuidedSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/GuidedSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/HaltFunction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/HaltFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/log/HtmlFormatter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/log/HtmlFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/IEvaluator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/evaluations/IEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/IGroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/IGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/IParserObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/objects/IParserObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/IStackGPGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/factories/IStackGPGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/If.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/controls/If.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/IfFoodAhead.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/operations/IfFoodAhead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/Impl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/Impl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/jumps/InconditionalJump.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/jumps/InconditionalJump.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/Individual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/Individual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/Initializer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/Initializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/Inserter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/Inserter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/integers/IntegerGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/integers/IntegerGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/IntervalGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/IntervalGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/JavaUtilRandom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/rng/JavaUtilRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/KTournamentSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/KTournamentSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/KTournamentSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/select/KTournamentSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/Left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/operations/Left.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/ListInserter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/ListInserter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Log.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Log.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/writer/LogWriter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/io/writer/LogWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/Logger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/io/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/MaxLengthStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/MaxLengthStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/MaxOnes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/MaxOnes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/files/tutorial/MaxOnesFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/MaximumFitnessHalting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/MaximumFitnessHalting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/MaximumStepHalting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/MaximumStepHalting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/MeanCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/MeanCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/MeanLengthStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/MeanLengthStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/MeanStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/MeanStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/utils/Median.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/utils/Median.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/MedianStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/MedianStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/MersenneTwister.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/rng/MersenneTwister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/mt/MersenneTwisterFast.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/rng/mt/MersenneTwisterFast.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/mirror/MirrorFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/mirror/MirrorFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Motor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/Move.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/operations/Move.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Mul.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Mul.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/MultiDeleter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/MultiDeleter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/MultipleFormulaFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/MultipleFormulaFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/MultiplePointMutation.MutationMode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/MultiplePointMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/MultiplePointMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/MultipleSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/MultipleSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/Mutator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/Mutator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/bin/NGenes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/bin/NGenes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/NKLandscapeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/nklandscape/NKLandscapeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/NKLandscapePrinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/nklandscape/NKLandscapePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/NKlandscapeWriter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/nklandscape/NKlandscapeWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/NkLandscapeReader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/nklandscape/NkLandscapeReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Nop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Nop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/utils/NormalizableFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/utils/NormalizableFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/utils/NormalizeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/utils/NormalizeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/Not.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/Not.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/ObjectCreator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/objects/ObjectCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/ObjectPool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/pool/ObjectPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Operation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Operation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/OperationConverter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/stackGP/OperationConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/Operator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/Operator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/Or.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/Or.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/OrFunction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/OrFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/ParserException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/ParserException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/ParserObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/objects/ParserObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/Permutable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/Permutable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/PermutableGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/PermutableGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/PermutableIndividual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/PermutableIndividual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/Pipe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/utils/Pipe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/Plague.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/Plague.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/Poolable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/pool/Poolable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/Population.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/Population.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/PopulationModifier.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/PopulationModifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/PopulationPrinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/PopulationPrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/printers/Printer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/printers/Printer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/PriorityMutation.Order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/PriorityMutation.PriorityMode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/PriorityMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/PriorityMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/ProbabilityMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/ProbabilityMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/ProbabilityStackGPGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/factories/ProbabilityStackGPGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/Prog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/operations/Prog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/Promoter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/stackGP/Promoter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Push.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Push.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/images/jimmac/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/RNG.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/rng/RNG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/RandomBranchDeleter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/RandomBranchDeleter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/RandomBranchInserter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/RandomBranchInserter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/quartic/RandomQuarticFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/quartic/RandomQuarticFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/RandomSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/RandomSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/RandomSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/select/RandomSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/Replicator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/utils/Replicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/RescueObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/objects/RescueObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/Right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/operations/Right.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Rotate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Rotate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/SQRT.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/SQRT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/STDStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/STDStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/fitness/SantaFeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/santafe/fitness/SantaFeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/SelectionEvaluator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/SelectionEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/Selector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/select/Selector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/bin/ShuttingFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/SimpleBreeder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/utils/SimpleBreeder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/SimpleStackGPGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/factories/SimpleStackGPGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Sin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Sin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/SingleOffspringCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/SingleOffspringCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/SizeFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/SizeFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/jumps/SmallerJump.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/jumps/SmallerJump.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/SmartPromoter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/stackGP/SmartPromoter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/StableFitnessCondition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/timer/conditions/StableFitnessCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/StableFitnessHalting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/halt/StableFitnessHalting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/stackGP/StackGPInitializer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/initializers/stackGP/StackGPInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/Statistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/Statistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/StatisticCache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/StatisticCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/StatisticalMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/StatisticalMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/StochasticMutation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/mutation/StochasticMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/stackGP/SubListSGPCO.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/stackGP/SubListSGPCO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/stackGP/SubTreeCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/stackGP/SubTreeCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/Subst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/doubles/Subst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/sum/SumFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/sum/SumFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/Swap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/Swap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/permutables/SwapCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/permutables/SwapCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/permutables/SwapMutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/tsp/TSPFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/tsp/TSPFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/tsp/TSPGeneFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/tsp/TSPGeneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/cache/TemporaryEvaluable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/tsp/Town.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/problems/tsp/Town.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/TwoPointsCrossover.Politic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/TwoPointsCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/TwoPointsCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/UndeterministicFitness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/fitness/UndeterministicFitness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/UniformCrossover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/UniformCrossover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/UniquePopulation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/populations/UniquePopulation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/VarSizeOnePointCrossOver.Politic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/VarSizeOnePointCrossOver.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/crossover/VarSizeOnePointCrossOver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/VariableSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/VariableSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/VariableSizeIndividual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/VariableSizeIndividual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/VectorIndividual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/VectorIndividual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/VerboseEvaluator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/evaluations/VerboseEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/WallClockStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/WallClockStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/WorstBiggerSelector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/guided/WorstBiggerSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/WorstDeleter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/ops/utils/WorstDeleter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/WorstStatistic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/statistics/WorstStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/XMLParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/tools/parser/XMLParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/Xor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/src/ch/unige/ng/species/stackGP/operations/booleans/Xor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/allclasses-noframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/changelog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/schema/config.dtd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/deprecated-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/genetic.dtd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/griewangk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/index-all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/logging.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/santafe/losaltos.trl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/files/maxones.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/maxones.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/n-genes_install.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/tutorial/n-genes_tutorial_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/n_genes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/nklandscape/nk1000_10.dot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/nklandscape/nk1000_16.dot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/nklandscape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/overview-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/overview-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/overview-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/bin/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/cache/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/utils/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/gen/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/stackGP/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/permutables/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/griewangk/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/mirror/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/quartic/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/context/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/evaluations/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/fitness/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/io/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/sum/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/tsp/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/booleans/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/bytes/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/doubles/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/stackGP/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/integers/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/printers/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/jumps/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/formulas/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/writer/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/log/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/mt/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/utils/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/bin/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/cache/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/utils/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/gen/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/stackGP/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/permutables/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/griewangk/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/mirror/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/quartic/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/context/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/evaluations/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/fitness/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/io/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/sum/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/tsp/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/booleans/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/bytes/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/doubles/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/stackGP/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/integers/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/printers/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/jumps/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/formulas/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/writer/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/log/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/mt/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/utils/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/bin/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/cache/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/fitness/utils/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/gen/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/halt/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/crossover/stackGP/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/guided/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/mutation/stackGP/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/permutables/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/select/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/ops/utils/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/populations/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/griewangk/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/mirror/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/nklandscape/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/quartic/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/context/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/evaluations/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/fitness/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/io/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/santafe/operations/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/sum/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/problems/tsp/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/booleans/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/bytes/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/doubles/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/initializers/stackGP/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/integers/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/printers/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/evaluations/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/factories/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/booleans/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/controls/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/doubles/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/species/stackGP/operations/jumps/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/statistics/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/timer/conditions/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/formulas/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/io/writer/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/log/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/parser/objects/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/pool/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/rng/mt/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/ch/unige/ng/tools/utils/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/santafe/pattern.trl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/santafe/pattern2.trl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/tsp/problem1.tsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/santafe/santafe.trl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples_of_ngenes_xml_conf/examples_of_ngenes_xml_conf/santafe.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/santafe.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/serialized-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples_of_ngenes_xml_conf/examples_of_ngenes_xml_conf/sphereGP.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/sphereGP.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/tsp/square.tsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/doc/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n-genes_0.9/config/tsp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MPO.iml" afterPath="$PROJECT_DIR$/MPO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MPO.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,10 +1137,43 @@
   <component name="FavoritesManager">
     <favorites_list name="MPO" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="20" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Motor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Motor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.12754555" vertical-offset="0" max-vertical-offset="933">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/Motor.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -117,6 +1225,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="n-genes_0.9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples_of_ngenes_xml_conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples_of_ngenes_xml_conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -130,12 +1284,15 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/n-genes_0.9/n-genes_0.9/n-genes.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -378,22 +1535,23 @@
       <changelist id="2d405c37-efaf-4d1e-8d35-2189b344c939" name="Default" comment="" />
       <created>1419345038367</created>
       <updated>1419345038367</updated>
-      <workItem from="1419345043204" duration="633000" />
+      <workItem from="1419345043204" duration="3324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633000" />
+    <option name="totallyTimeSpent" value="3324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,11 +1565,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -428,9 +1585,126 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples_of_ngenes_xml_conf/examples_of_ngenes_xml_conf/santafe.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Motor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.12754555" vertical-offset="0" max-vertical-offset="933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MPO</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>n-genes</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

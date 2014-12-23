@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- This is the config file described in the tutorial 1 -->
+
+
+<!-- change the following line to match your install
+path -->
+<!DOCTYPE program SYSTEM "../../tags/RECENT/config/genetic.dtd">
+
+<program>
+
+   <genetic popSize="100">
+   
+      <population/>
+
+      <context id="context">
+         <random CLASS="ch.unige.ng.tools.rng.MersenneTwister" seed="0"/>
+      </context>
+
+
+
+   <individual CLASS="ch.unige.ng.species.VectorIndividual" indSize="1000">
+
+      <geneFactory CLASS="ch.unige.ng.species.booleans.BooleanGeneFactory">
+         <object reference="context"/>
+      </geneFactory>
+
+     <fitness CLASS="tutorial.MaxOnesFitness"/>
+    <!-- <fitness CLASS="ch.unige.ng.fitness.MaxOnes"/> -->
+
+  </individual>
+
+   <pipe>
+
+      <mutation CLASS="ch.unige.ng.ops.mutation.BasicPointMutation" />
+
+      <crossover CLASS="ch.unige.ng.ops.crossover.BasicOnePointCrossOver">
+         <parameter NAME="politic" VALUE="RANDOM"/>
+      </crossover>
+
+   </pipe>
+
+   <selection CLASS="ch.unige.ng.ops.select.KTournamentSelector">
+      <parameter NAME="size" VALUE="5"/>
+   </selection>
+
+   <log>
+
+      <frequencyCondition frequency="2"/>
+      <endCondition/>
+
+      <logger>
+
+         <statistic CLASS="ch.unige.ng.statistics.BestStatistic"/>
+         <statistic CLASS="ch.unige.ng.statistics.MeanStatistic"/>
+         <statistic CLASS="ch.unige.ng.statistics.WorstStatistic"/>
+
+         <writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true">
+            <parameter NAME="separator" VALUE="\t"/>
+         </writer>
+
+       </logger>
+    </log>
+
+    <halt CLASS="ch.unige.ng.halt.MaximumFitnessHalting">
+        <parameter NAME="threshold" VALUE="0"/>
+    </halt>
+
+   </genetic>
+
+</program>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="n-genes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/n-genes_0.9/n-genes_0.9/n-genes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,4 @@
+Replaced the plain DocBook admonition icons with Jimmac's DocBook
+icons (http://jimmac.musichall.cz/ikony.php3).  These PNG icons have
+transparency although I dropped it from the default icons in ../images
+(to get round MS IE and FOP PNG incompatibilies).

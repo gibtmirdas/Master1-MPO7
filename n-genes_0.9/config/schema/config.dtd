@@ -1,0 +1,24 @@
+<!--
+        This DTD defines the minimum that has to be put into the dtd
+
+        If you want to use it: It is not necessary to cut and paste you just have to put this line into
+        your new dtd:
+
+        <!ENTITY % schema  SYSTEM "schema/config.dtd">
+
+        %schema;
+
+        The first line declares that you have an entity that is defined the file schema/config.dtd
+
+        And the first one copy it raw like a macro in C
+
+-->
+<!-- Definition of the keywords of the main function -->
+<!ATTLIST program
+    main CDATA "run"
+    multiAttribute CDATA "MULTI_ATTRIBUTE"
+    flush   CDATA "objectCreated"    
+>
+
+
+
