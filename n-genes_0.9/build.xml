@@ -60,7 +60,7 @@
         description="Create the jar">
         <jar destfile="${jarfile}" basedir="${build}">
             <manifest>
-                <attribute name="Main-Class" value="${mainclass}" /> 
+                <attribute name="tp7.Main-Class" value="${mainclass}" />
                 <attribute name="version" value="${version}"/>
             </manifest>
         </jar>
