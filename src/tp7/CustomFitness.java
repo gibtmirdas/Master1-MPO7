@@ -24,7 +24,7 @@ public class CustomFitness implements Fitness<Boolean> {
     }
 
     @Override
-    public double compute(Evaluable<Boolean> individual){
+    public double compute(Evaluable<Boolean> i){
 
         //foreach line
         // compute m bools => result
