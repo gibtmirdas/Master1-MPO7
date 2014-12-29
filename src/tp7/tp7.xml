@@ -18,14 +18,15 @@
             <fitness CLASS="tp7.CustomFitness" >
                 <parameter NAME="file" VALUE="config.txt"/>
             </fitness>
-
 		</individual>
+
 		<pipe>
 			<mutation CLASS="ch.unige.ng.ops.mutation.BasicPointMutation" />
 			<crossover CLASS="ch.unige.ng.ops.crossover.BasicOnePointCrossOver">
 				<parameter NAME="politic" VALUE="RANDOM"/>
 			</crossover>
 		</pipe>
+
 		<selection CLASS="ch.unige.ng.ops.select.KTournamentSelector">
 			<parameter NAME="size" VALUE="5"/>
 		</selection>

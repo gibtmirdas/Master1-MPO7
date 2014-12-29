@@ -29,6 +29,7 @@ public class CustomFitness implements Fitness<Boolean> {
         //foreach line
         // compute m bools => result
         // result = m+1
+
         return 0;
     }
 }
