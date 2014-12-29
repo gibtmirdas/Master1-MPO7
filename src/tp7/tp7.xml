@@ -2,16 +2,22 @@
 <!DOCTYPE program SYSTEM "../../n-genes_0.9/config/genetic.dtd">
 
 <program>
+    <constant NAME="popSize" VALUE="100"/>
+    <constant NAME="m" VALUE="10"/>
+    <constant NAME="nTest" VALUE="100"/>
+    <constant NAME="nTraining" VALUE="400"/>
 	<genetic popSize="100">
 		<population/>
 		<context id="context">
 			<random CLASS="ch.unige.ng.tools.rng.MersenneTwister" seed="0"/>
 		</context>
-		<individual CLASS="ch.unige.ng.species.VectorIndividual" indSize="1000" >
+		<individual CLASS="ch.unige.ng.species.VectorIndividual" indSize="1000">
 			<geneFactory CLASS="ch.unige.ng.species.booleans.BooleanGeneFactory">
 				<object reference="context"/>
 			</geneFactory>
-			<fitness CLASS="tutorial.MaxOnesFitness"/>
+            <fitness CLASS="tp7.CustomFitness" >
+                <parameter NAME="file" VALUE="config.txt"/>
+            </fitness>
 
 		</individual>
 		<pipe>
@@ -23,6 +29,17 @@
 		<selection CLASS="ch.unige.ng.ops.select.KTournamentSelector">
 			<parameter NAME="size" VALUE="5"/>
 		</selection>
+        <event>
+            <condition CLASS="ch.unige.ng.timer.conditions.EndCondition" />
+            <condition CLASS="ch.unige.ng.timer.conditions.FrequencyCondition">
+                <parameter NAME="frequency" VALUE="10" />
+            </condition>
+            <listener CLASS="ch.unige.ng.timer.PopulationModifier">
+                <object CLASS="ch.unige.ng.ops.mutation.stackGP.ForwardCleaner">
+                    <parameter NAME="deletionMode" VALUE="FITNESS_DESTRUCTIVE"/>
+                </object>
+            </listener>
+        </event>
 		<log>
 			<frequencyCondition frequency="2"/>
 			<endCondition/>
@@ -30,16 +47,13 @@
 				<statistic CLASS="ch.unige.ng.statistics.BestStatistic"/>
 				<statistic CLASS="ch.unige.ng.statistics.MeanStatistic"/>
 				<statistic CLASS="ch.unige.ng.statistics.WorstStatistic"/>
-                <!--
 				<writer CLASS="ch.unige.ng.tools.io.writer.DefaultWriter" console="true">
 					<parameter NAME="separator" VALUE="\t"/>
 				</writer>
-				-->
-                <writer CLASS="ch.unige.ng.tools.io.writer.AbstractWriter" console="true"/>
 			</logger>
 		</log>
 		<halt CLASS="ch.unige.ng.halt.MaximumStepHalting">
-			<parameter NAME="step" VALUE="1000"/>
+			<parameter NAME="step" VALUE="100"/>
 		</halt>
 	</genetic>
 </program>

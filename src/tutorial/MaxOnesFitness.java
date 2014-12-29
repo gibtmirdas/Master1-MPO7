@@ -9,4 +9,5 @@ public class MaxOnesFitness implements Fitness<Boolean>{
 	public double compute(Evaluable<Boolean> individual) {
 		return 1.0;
 	}
+
 }
