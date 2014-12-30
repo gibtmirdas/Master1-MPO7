@@ -23,11 +23,16 @@ public class GenerateRnLookupTable {
         try {
 			BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 			writer.write("10 "+args[0]+"\n");
+			String toWrite;
 			for(int i=0; i < nbRows; i++){
 				tmp = randomArray(rand, length);
 				tmp.add(computeFonction(tmp));
-				writer.write(arrayToString(tmp));
+				toWrite = arrayToString(tmp);
+				if (i == nbRows-1)
+					toWrite = toWrite.substring(0,toWrite.length()-1);
+				writer.write(toWrite);
 			}
+			writer.flush();
 			writer.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -54,7 +59,14 @@ public class GenerateRnLookupTable {
 	private static String arrayToString(ArrayList<Boolean> tmp){
 		String str = "";
 		for(Boolean b: tmp)
-			str += b?"1 ":"0 ";
-		return str.substring(0, str.length()-1)+"\n";
+			str += b?"1":"0";
+		return str+"\n";
+	}
+
+	public static boolean testForumla(Boolean[] booleans){
+		ArrayList<Boolean> ret = new ArrayList<Boolean>();
+		for(boolean b: booleans)
+			ret.add(b);
+		return computeFonction(ret);
 	}
 }
